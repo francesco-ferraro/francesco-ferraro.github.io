@@ -6,7 +6,7 @@ body {
 }
 
 #main {
-    padding: 0px 30px 30px;
+    padding: 0px 15px 30px;
     background-color: white;
     border-radius: 25px;
     border: 1px solid black;
@@ -30,6 +30,9 @@ body {
 @media (min-width: 768px) {
     body {
         width: 60%;
+    }
+    #main {
+        padding: 0px 30px 30px;
     }
     #pic {
         width: 300px;
