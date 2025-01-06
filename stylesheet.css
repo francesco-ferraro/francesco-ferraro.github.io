@@ -12,7 +12,7 @@ body {
 /* Large screen */
 @media (min-width: 768px) {
     body {
-        width: 60%;
+        width: 55%;
         margin-top: 50px;
     }
     #pic {
