@@ -10,9 +10,9 @@ body {
 }
 
 /* Large screen */
-@media (min-width: 768px) {
+@media (min-width: 780px) {
     body {
-        width: 750px;
+        width: 770px;
         margin-top: 50px;
     }
     #pic {
