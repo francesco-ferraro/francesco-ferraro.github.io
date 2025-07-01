@@ -45,7 +45,13 @@
 <p>
     <a href="https://docs.google.com/document/d/18OG4Rcde-Hk0ManHcehdTL5_jZ6N0Uyl4_vHr3qF1mE">CV</a>
     -
-    <a href="javascript:void(0)" onclick="alert('name.surname.4@phd.unipd.it')">Mail</a>
+    <a href="#" id="mail-link">Mail</a>
+    <script>
+        document.getElementById('mail-link').addEventListener('click', function(e) {
+            e.preventDefault();
+            alert('name.surname.4@phd.unipd.it');
+        });
+    </script>
     -
     <a href="https://scholar.google.com/citations?user=CIszadgAAAAJ">Scholar</a>
     - 
