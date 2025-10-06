@@ -1,6 +1,15 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 12pt;
+    font-size: 13pt;
+}
+
+a {
+    color: steelblue;
+    text-decoration: none;
+}
+
+li {
+    margin-bottom: 10px;
 }
 
 /* Small screen */
@@ -14,6 +23,7 @@ body {
     max-width: 100%;
 }
 
+
 /* Large screen */
 @media (min-width: 780px) {
     body {
@@ -24,13 +34,4 @@ body {
     #pic {
         width: 300px;
     }
-}
-
-a {
-    color: steelblue;
-    text-decoration: none;
-}
-
-li {
-    margin-bottom: 10px;
 }
